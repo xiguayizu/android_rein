@@ -2,6 +2,7 @@ package com.iluyinji.c23;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
+
+    public void nativeCallJava(View view) {
+        Hello hello = new Hello();
+        hello.test();
+    }
 }
