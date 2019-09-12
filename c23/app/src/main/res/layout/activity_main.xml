@@ -26,5 +26,20 @@
         android:onClick="nativeChangeJavaVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#66CCFF"/>
+    <Button
+        android:text="java  c++ 子类父类调用不同"
+        android:onClick="cppAndJavaExtendsCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Nonvirtual调用 父类"
+        android:onClick="cppCallNonvirtual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
 
 </LinearLayout>

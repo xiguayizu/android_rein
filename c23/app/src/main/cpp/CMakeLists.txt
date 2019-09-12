@@ -22,6 +22,10 @@ add_library(
         JNIDemo-lib
         SHARED
         JNIDemo-lib.cpp)
+add_library(
+        Polymorphism-lib
+        SHARED
+        Polymorphism-lib.cpp)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
@@ -43,7 +47,14 @@ find_library( # Sets the name of the path variable.
 target_link_libraries( # Specifies the target library.
         native-lib
         JNIDemo-lib
+        # Links the target library to the log library
+        # included in the NDK.
+        ${log-lib})
 
+# 分开做链接 !!!!!!!!!!!
+# 用log
+target_link_libraries( # Specifies the target library.
+        Polymorphism-lib
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib})

@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.iluyinji.c23.code_callParent_2_4.Polymorphism;
+
 public class MainActivity extends AppCompatActivity {
 
     // Used to load the 'native-lib' library on application startup.
@@ -35,6 +37,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void nativeChangeJavaVal(View view) {
         JNIDemo jniDemo = new JNIDemo();
-        jniDemo.sayHello();
+        jniDemo.JNIDemo();
+    }
+
+    public void cppAndJavaExtendsCall(View view) {
+        Polymorphism polymorphism = new Polymorphism();
+        polymorphism.javaCallOrder();
+        polymorphism.cppCallOrder();
+    }
+
+    public void cppCallNonvirtual(View view) {
+        Polymorphism polymorphism = new Polymorphism();
+        polymorphism.cppCallJava(); // Nonvirtual
     }
 }
