@@ -32,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
         Hello hello = new Hello();
         hello.test();
     }
+
+    public void nativeChangeJavaVal(View view) {
+        JNIDemo jniDemo = new JNIDemo();
+        jniDemo.sayHello();
+    }
 }

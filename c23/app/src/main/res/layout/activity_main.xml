@@ -17,7 +17,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <Button
+        android:text="native调用Java方法"
         android:onClick="nativeCallJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="native修改Java变量"
+        android:onClick="nativeChangeJavaVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
