@@ -26,6 +26,10 @@ add_library(
         Polymorphism-lib
         SHARED
         Polymorphism-lib.cpp)
+add_library(
+        cCreateJavaObject-lib
+        SHARED
+        cCreateJavaObject-lib.cpp)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
@@ -57,4 +61,7 @@ target_link_libraries( # Specifies the target library.
         Polymorphism-lib
         # Links the target library to the log library
         # included in the NDK.
+        ${log-lib})
+target_link_libraries(
+        cCreateJavaObject-lib
         ${log-lib})

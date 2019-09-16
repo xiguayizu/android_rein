@@ -39,6 +39,16 @@
         android:onClick="cppCallNonvirtual"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:text="c创建java object"
+        android:onClick="cCreateJavaObj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="c操作java的字符串"
+        android:onClick="cOperJavaString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 

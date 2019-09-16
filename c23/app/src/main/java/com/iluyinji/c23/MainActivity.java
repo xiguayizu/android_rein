@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.iluyinji.c23.code_cCreateObject_2_5.cCreateJavaObj;
 import com.iluyinji.c23.code_callParent_2_4.Polymorphism;
 
 public class MainActivity extends AppCompatActivity {
@@ -49,5 +50,13 @@ public class MainActivity extends AppCompatActivity {
     public void cppCallNonvirtual(View view) {
         Polymorphism polymorphism = new Polymorphism();
         polymorphism.cppCallJava(); // Nonvirtual
+    }
+
+    public void cCreateJavaObj(View view) {
+        cCreateJavaObj.test1();
+        cCreateJavaObj.test2();
+    }
+    public void cOperJavaString(View view) {
+        cCreateJavaObj.cOperJavaString();
     }
 }
