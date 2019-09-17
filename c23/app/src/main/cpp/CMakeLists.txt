@@ -30,6 +30,10 @@ add_library(
         cCreateJavaObject-lib
         SHARED
         cCreateJavaObject-lib.cpp)
+add_library(
+        cOperJavaArray-lib
+        SHARED
+        cOperJavaArray-lib.cpp)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
@@ -64,4 +68,7 @@ target_link_libraries( # Specifies the target library.
         ${log-lib})
 target_link_libraries(
         cCreateJavaObject-lib
+        ${log-lib})
+target_link_libraries(
+        cOperJavaArray-lib
         ${log-lib})

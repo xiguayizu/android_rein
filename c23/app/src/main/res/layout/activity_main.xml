@@ -49,6 +49,11 @@
         android:onClick="cOperJavaString"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:text="c操作java的数组"
+        android:onClick="cOperJavaArray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 

@@ -25,4 +25,3 @@ Java_com_iluyinji_c23_JNIDemo_sayHello(JNIEnv *env, jobject instance) {
     env->SetIntField(instance, id_number, 100L);
 }
 
-

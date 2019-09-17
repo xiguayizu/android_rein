@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.iluyinji.c23.code_cCreateObject_2_5.cCreateJavaObj;
 import com.iluyinji.c23.code_callParent_2_4.Polymorphism;
+import com.iluyinji.c23.code_operArray_2_6.cOperArray;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -58,5 +59,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void cOperJavaString(View view) {
         cCreateJavaObj.cOperJavaString();
+    }
+
+    public void cOperJavaArray(View view) {
+        cOperArray.cOperArray();
     }
 }
