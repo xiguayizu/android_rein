@@ -88,7 +88,6 @@ Java_com_iluyinji_c23_code_1operArray_12_16_cOperArray_callCppFunction(JNIEnv *e
     env->ReleaseIntArrayElements(jint_arr, int_arr, JNI_ABORT);
 
 
-
     // 获取Java中对象Father数组属性的id
     jfieldID fid_obj_arrays =
             env->GetFieldID(env->GetObjectClass(instance), "objArrays", "[Lcom/iluyinji/c23/code_callParent_2_4/Father;");
@@ -110,11 +109,19 @@ Java_com_iluyinji_c23_code_1operArray_12_16_cOperArray_callCppFunction(JNIEnv *e
     jobject jobj_temp = env->GetObjectArrayElement(jobj_arr_temp, 3);
     // 调用Father对象中的function方法
     env->CallVoidMethod(jobj_temp, id_father_function);
-
 }
 
 
 
+// 缓存保存字段查询
+JNIEXPORT void JNICALL Java_Test_native(JNIEnv* env, jobject obj)
+{
+    static jfieldID fieldID_string = NULL;
+    jclass clazz = env->GetObjectClass(obj);
+    if(fieldID_string == NULL){
+        fieldID_string = env->GetFieldID(clazz, "string", "Ljava/lang/String;");
+    }
+}
 
 
 
