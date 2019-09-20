@@ -1,3 +1,5 @@
+package dex;
+
 import java.io.*;
 import java.util.Arrays;
 
@@ -57,9 +59,9 @@ public class myUtil {
         return sb.toString();
     }
 
-    public static int byte2Short(byte[] b) {
+    public static Short byte2Short(byte[] b) {
         // outWithHex(b);
-        int ret = b[1];
+        short ret = b[1];
         ret += b[0];
         return ret;
     }
@@ -70,5 +72,11 @@ public class myUtil {
                 | ((res[2] << 24) >>> 8)
                 | (res[3] << 24);
         return targets;
+    }
+
+    public static byte[] int2Byte(int string_data_off) {
+        byte[] ret = new byte[2];
+
+        return ret;
     }
 }

@@ -2,10 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0aa3cf6-5112-4ae4-be1e-db13cd647276" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/myUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parseElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c23/app/src/main/cpp/cOperJavaArray-lib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../c23/app/src/main/cpp/cOperJavaArray-lib.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parseDex/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/construct_dex_widthRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dex/HeaderType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dex/MapItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dex/MapList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dex/ProtoIdsItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dex/StringDataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dex/StringIdsItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dex/TypeIdsItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/elfStruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main_parseDex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main_parseElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/myUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/parseElf$ElfType32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/parseElf$hdr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/parseElf$phdr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/parseElf$shdr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/parseElf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dex/myUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parseElf.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,57 +43,168 @@
     <session id="515599951">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="3" />
+          <entry key="dex" value="2" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="16" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3907" />
+          <entry key="dummy" value="12" />
+          <entry key="java" value="6901" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3907" />
+          <entry key="JAVA" value="6901" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parseElf.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main_parseElf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="147" column="17" lean-forward="true" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+            <state relative-caret-position="311">
+              <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2239#2245#0" expanded="true" />
-                <element signature="e#4028#4034#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/myUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/elfStruct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            <state relative-caret-position="256">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main_parseDex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="228" column="21" lean-forward="true" selection-start-line="228" selection-start-column="21" selection-end-line="228" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1297#1312#0" expanded="true" />
+                <element signature="e#1460#1468#0" expanded="true" />
+                <element signature="e#1872#1885#0" expanded="true" />
+                <element signature="e#2031#2045#0" expanded="true" />
+                <element signature="method#praseDexHeader#0;class#main_parseDex#0" />
+                <element signature="e#8866#8874#0" expanded="true" />
+                <element signature="e#8922#8929#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dex/ProtoIdsItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#359#367#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dex/TypeIdsItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dex/HeaderType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dex/myUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dex/StringIdsItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding>
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dex/StringDataItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#121#127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,6 +226,15 @@
       <find>shdrList</find>
       <find>parseSo</find>
       <find>parseProgramHeaderList</find>
+      <find>dexStructMapItem</find>
+      <find>dexStructMapList</find>
+      <find>myUtil</find>
+      <find>stringIdsList</find>
+      <find>parseStringList</find>
+      <find>TypeIdsItem</find>
+      <find>parseTypeIds</find>
+      <find>++++++++++++++++++++++++++++++++++++++++</find>
+      <find>parseProtoIds</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -282,7 +420,9 @@
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="2439172154" />
         <entry key="$PROJECT_DIR$" value="7826678646020" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1945452729" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2973424357" />
       </map>
     </option>
@@ -399,14 +539,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/myUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/elfStruct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dex/parseDex.java" />
         <option value="$PROJECT_DIR$/src/main/java/parseElf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/construct_dex_widthRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dexStructMapList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dexStructMapItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dexStruct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dex/dexStructMapList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dex/dexStructMapItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dex/MapList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dex/StringIdsItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dex/StringDataItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main_parseElf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dex/dexStruct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dex/TypeIdsItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dex/myUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main_parseDex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dex/ProtoIdsItem.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="213" />
-    <option name="width" value="1633" />
+    <option name="x" value="227" />
+    <option name="width" value="1675" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -416,7 +573,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -442,17 +598,33 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="parseElf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parseElf" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dex" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568711365128" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568952561688" />
+    <property name="last_opened_file_path" value="E:/xposedBri" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -466,17 +638,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="parseElf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parseElf" />
+  <component name="RunManager" selected="Application.main_parseDex">
+    <configuration name="construct_dex_widthRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct_dex_widthRun" />
       <module name="parseElf_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main_parseDex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main_parseDex" />
+      <module name="parseElf_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main_parseElf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main_parseElf" />
+      <module name="parseElf_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.main_parseElf" />
+      <item itemvalue="Application.construct_dex_widthRun" />
+      <item itemvalue="Application.main_parseDex" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.parseElf" />
+        <item itemvalue="Application.main_parseDex" />
+        <item itemvalue="Application.construct_dex_widthRun" />
+        <item itemvalue="Application.main_parseElf" />
       </list>
     </recent_temporary>
   </component>
@@ -503,38 +696,68 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="0" width="1306" height="870" extended-state="0" />
+    <frame x="182" y="0" width="1340" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13541667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24414976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32971507" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.035278156" />
-      <window_info anchor="bottom" id="Messages" weight="0.32897604" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19538671" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21166892" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.59023064" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32971507" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.035278156" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.47489825" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2544" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1436464" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.12573674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32971507" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.035278156" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32897604" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -543,61 +766,80 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint suspend="NONE" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parseElf.java</url>
-          <line>165</line>
+          <url>file://$PROJECT_DIR$/src/main/java/main_parseElf.java</url>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parseElf.java</url>
-          <line>166</line>
+          <url>file://$PROJECT_DIR$/src/main/java/main_parseElf.java</url>
+          <line>51</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/myUtil.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/dex/myUtil.java</url>
           <line>53</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parseElf.java</url>
-          <line>189</line>
+          <url>file://$PROJECT_DIR$/src/main/java/main_parseElf.java</url>
+          <line>74</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/myUtil.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parseElf.java</url>
-          <line>205</line>
+          <url>file://$PROJECT_DIR$/src/main/java/main_parseElf.java</url>
+          <line>90</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parseElf.java</url>
-          <line>186</line>
+          <url>file://$PROJECT_DIR$/src/main/java/main_parseElf.java</url>
+          <line>71</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parseElf.java</url>
-          <line>188</line>
+          <url>file://$PROJECT_DIR$/src/main/java/main_parseElf.java</url>
+          <line>73</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parseElf.java</url>
-          <line>213</line>
+          <url>file://$PROJECT_DIR$/src/main/java/main_parseElf.java</url>
+          <line>98</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dex/myUtil.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="new String(strByte)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>new String(strByte)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>strByte.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/io/File.java">
@@ -614,24 +856,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/construct_dex_widthRun.dex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/construct_dex_widthRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        <state relative-caret-position="198">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dex/MapItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dex/MapList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#159#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dex/StringDataItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#121#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elfStruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parseElf.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dex/HeaderType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="147" column="17" lean-forward="true" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+        <state relative-caret-position="80">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dex/StringIdsItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dex/TypeIdsItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main_parseElf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2239#2245#0" expanded="true" />
-            <element signature="e#4028#4034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dex/myUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main_parseDex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="228" column="21" lean-forward="true" selection-start-line="228" selection-start-column="21" selection-end-line="228" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1297#1312#0" expanded="true" />
+            <element signature="e#1460#1468#0" expanded="true" />
+            <element signature="e#1872#1885#0" expanded="true" />
+            <element signature="e#2031#2045#0" expanded="true" />
+            <element signature="method#praseDexHeader#0;class#main_parseDex#0" />
+            <element signature="e#8866#8874#0" expanded="true" />
+            <element signature="e#8922#8929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dex/ProtoIdsItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#359#367#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
           </folding>
         </state>
       </provider>
