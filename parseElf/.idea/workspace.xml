@@ -2,28 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0aa3cf6-5112-4ae4-be1e-db13cd647276" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../parseDex/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/construct_dex_widthRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dex/HeaderType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dex/MapItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dex/MapList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dex/ProtoIdsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dex/StringDataItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dex/StringIdsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dex/TypeIdsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elfStruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main_parseDex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main_parseElf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/androidTest/java/com/iluyinji/forceapkobj/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/java/com/iluyinji/forceapkobj/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/java/com/iluyinji/forceapkobj/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/app/src/test/java/com/iluyinji/forceapkobj/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinup/ForceApkObj/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/myUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/parseElf$ElfType32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/parseElf$hdr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/parseElf$phdr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/parseElf$shdr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/parseElf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dex/myUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parseElf.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -135,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dex/ProtoIdsItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="360">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#359#367#0" expanded="true" />
@@ -561,7 +579,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="227" />
     <option name="width" value="1675" />
     <option name="height" value="1088" />
@@ -614,7 +632,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568952561688" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568960052081" />
     <property name="last_opened_file_path" value="E:/xposedBri" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -696,10 +714,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="0" width="1340" height="870" extended-state="0" />
+    <frame x="101" y="-7" width="1442" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24414976" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18208092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -708,7 +726,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21166892" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20939597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.59023064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -989,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dex/ProtoIdsItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="360">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#359#367#0" expanded="true" />
